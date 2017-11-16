@@ -1,0 +1,253 @@
+@font-face {
+font-family: 'Helvetica Neue Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Medium'), url(../assets/fonts/'HelveticaNeueMedium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Helvetica Neue UltraLight';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue UltraLight'), url(../assets/fonts/'HelveticaNeueUltraLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Helvetica Neue Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Light'), url(../assets/fonts/'HelveticaNeueLight.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+body{
+	margin:0;
+	padding:0;
+	font-family:  'Helvetica Neue Medium','Arial',sans-serif;
+}
+
+nav {
+	position: relative;
+	margin:0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+a:hover{
+    color: #5d5d5d;
+}
+
+#header {
+    width: 100%;
+    background-color: white;
+    color: #a1a1a1;
+    border-bottom: 1px solid #f4f4f4;
+    height: 75px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.10);
+}
+
+#header ul {
+	width: 100%;
+	position: absolute;
+}
+
+#header ul li {
+    list-style-type: none;
+    font-size: .8em;
+    font-weight: bold;
+    display: inline-block;
+    float:left;
+    margin:0px 20px 30px 20px;
+    position: relative;
+}
+
+#header p{
+	font-size: 1.5em;
+	font-weight: 700;
+	margin:25px 20px 10px 20px;
+	text-align: center;
+}
+
+#user-name {
+	left:40px;
+}
+
+#home{
+	left:80px;
+}
+
+
+#logo img {
+    width: 60px;
+    float: left;
+}
+
+#search {
+    width: 55%;
+    float: left;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+#search-box {
+    width: 100%;
+    height: 25px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border: 0px;
+}
+
+
+#grid {
+    width: 95%;
+    margin: 60px auto;
+    padding-top: 1
+}
+
+
+#columns {
+    -webkit-column-count: 4;
+    -webkit-column-gap: 15px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 4;
+    -moz-column-gap: 15px;
+    -moz-column-fill: auto;
+    column-count: 4;
+    column-gap: 15px;
+    column-fill: auto;
+}
+
+#suggestions {
+	display: block;
+	margin:0 auto;
+	position: relative;
+
+}
+
+
+#suggest-01{
+	background-image:url(../assets/images/background01.jpg);
+	background-size:cover;
+	
+}
+ #suggest-02{
+	background-image:url(../assets/images/background02.jpg);
+	background-size:cover;
+}
+#suggest-03{
+	background-image:url(../assets/images/background03.jpg);
+	background-size:cover;
+}
+#suggest-04{
+	background-image:url(../assets/images/background04.jpg);
+	background-size:cover;
+}
+#suggest-05{
+	background-image:url(../assets/images/background05.jpg);
+	background-size:cover;
+}
+#suggest-06{
+	background-image:url(../assets/images/background06.jpg);
+	background-size:cover;
+}
+#suggest-07{
+	background-image:url(../assets/images/background07.jpg);
+	background-size:cover;
+}
+#suggest-08{
+	background-image:url(../assets/images/background08.jpg);
+	background-size:cover;
+}
+
+.user-image{
+	width:68px;
+	height:68px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	background-image: url(assets/images/user-image.jpg);
+
+}
+
+.pin {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 10px 2px 15px 0px;
+    padding: 15px 15px 5px 15px;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+}
+
+.pin img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.pin p {
+    font: .9em Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.pin:hover {
+    border-radius: 10px;
+    transform: scale(1.025);
+    box-shadow: 6px 8px 6px 6px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.suggestion {
+	width: 120px;
+	height: 60px;
+	display: inline-block;
+	margin: 10px 15px;
+	border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	font-family: sans-serif;
+    text-shadow: 2px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.30)
+
+}
+
+.suggestion:hover {
+    border-radius: 10px;
+    transform: scale(1.025);
+    box-shadow: 2px 4px 2px 2px rgba(0,0,0,0.55);
+    cursor: pointer;
+}
+
+ .user-image:hover{
+    transform: scale(1.025);
+    box-shadow: 2px 4px 2px 2px rgba(0,0,0,0.15);
+    cursor: pointer;
+    bottom:5px;
+}
+
+.suggestion p {
+	padding: 30px auto;
+	margin-top: 20px;
+	font-weight: 700;
+}
+
